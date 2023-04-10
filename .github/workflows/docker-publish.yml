@@ -39,7 +39,6 @@ jobs:
       - name: Build Docker Image
         run: |
           cd od
-          docker build -t ${IMAGE_NAME}
 
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
