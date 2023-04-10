@@ -8,6 +8,6 @@ COPY . .
 
 RUN pip3 install flask flask flask_pymongo opencv-python
 
-EXPOSE 5000
+EXPOSE 8080
 
 CMD ["python3","main.py"]
